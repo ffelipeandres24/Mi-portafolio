@@ -1,20 +1,101 @@
-img{
-    width: 500px;
-    margin: 0;
-    border-radius: 2000px;
-    
-}
-ul{
-    text-align: center;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(167, 173, 173);
-    color: rgb(55, 0, 255);
+.encabezado{
     display: flex;
-    justify-content: center;
-    margin: 50px;
-}
-header{
+    justify-content: space-around;
+     align-items: center;
+     background-color:rgb(255, 0, 0);
+     border: 200px;
+     position: fixed;
+     width: 100%;
+  }
+  .logoempresa{
+    width: 10%;
+    border-radius: 2000%;
+  }
+  
+  .botones1{        
+    color: rgb(7, 6, 6);
+    display:flex ;
+    text-align:center;
+    position: absolute;
+    
+  
+  }
+  .botones2{
+    display: flex;
+  
+  }
+  .lexuscompleto{
+    height: 150vh;
+    background-image:url(../img/yoo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  
+  .lexus{
+    position: absolute;
+    top: 400px;
+    text-shadow: 3px;
+    color: rgb(255, 255, 255);
+    
+  }
+  .textolexus{
+    position: absolute;
+    top: 450px;
+  
+  }
+  button a{
+    position: absolute;
+    top: 510px;
+    border:20px;
+    color: rgb(252, 252, 252);
+    background-color: blue;
+    border-radius: 20%;
+    
+  
+  }
+  .nosotros{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+  }
+  .misionyvision{
+    display: flex;
+    
+  }
+  .mision{
+    text-align: center;
+  }
+  .vision{
+    text-align: center;
+  }
+  .servicios{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+  }
+  .youtubeyfacebook{
+    display: flex;
+  }
+  .instagramyindriver{
+    display: flex;
+  }
+  .orientacion{
+    display: flex;
+  }
+  .whatsappytwitter{
+    display: flex;
+    
+  }
+  .googleyrappi{
+    display: flex;
+  }
+  .orientacion2{
     display:flex;
-    justify-content:center;
-}
+  }
+  figure{
+    border-radius: 30%;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+  }
